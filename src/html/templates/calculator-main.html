@@ -1,0 +1,90 @@
+<div class="mortgage-calculator">
+    <div class="mortgage-calculator__wrapper">
+        <h1 class="mortgage-calculator__title">
+            Расчёт ипотеки
+        </h1>
+        <div class="mortgage-calculator__settings">
+            <div class="mortgage-calculator__setting">
+                <div class="mortgage-calculator__settings-top">
+                    <h4 class="mortgage-calculator__setting-title">
+                        Стоимость квартиры
+                    </h4>
+                    <div class="mortgage-calculator__setting-value" data-value="cost">
+                        5000000 ₽
+                    </div>
+                </div>
+                <div class="mortgage-calculator__range-wrapper">
+                    <input
+                        type="range"
+                        min="1000000"
+                        max="20000000"
+                        step="1000"
+                        class="mortgage-calculator__range"
+                        data-range
+                        data-value-in="cost"
+                    >
+                    <span class="mortgage-calculator__range-number--start mortgage-calculator__range-number">
+                        1 млн
+                    </span>
+                    <span class="mortgage-calculator__range-number--end mortgage-calculator__range-number">
+                        20 млн
+                    </span>
+                </div>
+            </div>
+            <div class="mortgage-calculator__setting">
+                <div class="mortgage-calculator__settings-top">
+                    <h4 class="mortgage-calculator__setting-title">
+                        Первоначальный взнос
+                    </h4>
+                    <div class="mortgage-calculator__setting-value" data-value="down-payment">
+                        25 ₽
+                    </div>
+                </div>
+                <div class="mortgage-calculator__range-wrapper">
+                    <input
+                        type="range"
+                        min="10"
+                        max="50"
+                        step="1"
+                        class="mortgage-calculator__range"
+                        data-range
+                        data-value-in="down-payment"
+                    >
+                    <span class="mortgage-calculator__range-number--start mortgage-calculator__range-number">
+                        10%
+                    </span>
+                    <span class="mortgage-calculator__range-number--end mortgage-calculator__range-number">
+                        50%
+                    </span>
+                </div>
+            </div>
+            <div class="mortgage-calculator__setting">
+                <div class="mortgage-calculator__settings-top">
+                    <h4 class="mortgage-calculator__setting-title">
+                        Срок кредита
+                    </h4>
+                    <div class="mortgage-calculator__setting-value" data-value="mortgage-period">
+                        25
+                    </div>
+                </div>
+                <div class="mortgage-calculator__range-wrapper">
+                    <input
+                        type="range"
+                        min="1"
+                        max="30"
+                        step="1"
+                        class="mortgage-calculator__range"
+                        data-range
+                        data-value-in="mortgage-period"
+                    >
+                    <span class="mortgage-calculator__range-number--start mortgage-calculator__range-number">
+                        1 год
+                    </span>
+                    <span class="mortgage-calculator__range-number--end mortgage-calculator__range-number">
+                        30 лет
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
